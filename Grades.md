@@ -14,7 +14,7 @@
 | 3   | Sql file creates table                | ![Alt text][1] |
 | 4   | Table contains primary key            | ![Alt text][1] |
 | -   | ---load_db.php---                     | ![Alt text][1] |
-| 4   | Table contains primary key            | ![Alt text][1] |
+| 5   | file runs correctly and loads db      | ![Alt text][1] |
 ### Comments:
 ```
 none
