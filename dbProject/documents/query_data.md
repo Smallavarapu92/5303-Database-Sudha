@@ -15,12 +15,12 @@ WHERE rid = 1;
 ```
  Showing rows 0 - 29 (255 total, Query took 0.0004 sec) 
  Cannot put all 255 rows here.
-firstname	lastname	emailID						password	street	city			state					zipcode	phoneNumber	uuid	rid	
-luukas		hanninen	luukas.hanninen@example.com	fishhead	6029	rautatienkatu	karkkilaÃ¥land			31216	08-585-979	1		1
-sanni		palo		sanni.palo@example.com		access		2016 	pirkankatu		getafinlandproper		28954	05-798-487	9		1
-eemil		rintala		eemil.rintala@example.com	ophelia		7300 	suvantokatu		pihtipudasostrobothnia	64640	04-479-821	11		1
-joona		laitinen	joona.laitinen@example.com	nostromo	3459 	otavalankatu	mÃ¤nttÃ¤satakunta		71014	04-771-817	33		1
-ilona		latt		ilona.latt@example.com		canuck		2561 	siilitie		pyhÃ¤rantakymenlaakso	48015	03-732-243	35		1
+ firstname	lastname	emailID	password	street	city	state	zipcode	phoneNumber	uuid	rid	
+luukas	hanninen	luukas.hanninen@example.com	fishhead	6029 rautatienkatu	karkkila	Ã¥land	31216	08-585-979	1	1
+sanni	palo	sanni.palo@example.com	access	2016 pirkankatu	geta	finland proper	28954	05-798-487	9	1
+eemil	rintala	eemil.rintala@example.com	ophelia	7300 suvantokatu	pihtipudas	ostrobothnia	64640	04-479-821	11	1
+joona	laitinen	joona.laitinen@example.com	nostromo	3459 otavalankatu	mÃ¤nttÃ¤	satakunta	71014	04-771-817	33	1
+ilona	latt	ilona.latt@example.com	canuck	2561 siilitie	pyhÃ¤ranta	kymenlaakso	48015	03-732-243	35	1
 ```
 
 #### Question 2:
@@ -100,12 +100,12 @@ WHERE fileSize > '3';
 
 #### Answer:
 ```
-mediaId	mediaTitle			artist				year	fileSize	mediaType	categoryId	priceId	saleType	mediaPath								priceSetDate	
-1		St. Vincent			Melissa McCarthy	2014	700			movie		1			3		retail		D:/Movies/Comedy/St_Vincent.avi			12/2/15 05:20 AM
-2		marlboro			st vincent			2012	10			music		15			25		retail		D://work//music//marlboro.mp4			12/2/15 05:25 AM
-3		Horrible Bosses 2	Jason Bateman		2011	789			movie		4			77		sale		D:/Movies/Comedy/HorribleBosses2.avi	12/2/15 05:21 AM
-4		The Wizard of Oz	Mila Kunis			2010	876			movie		8			43		retail		D:/Movies/TheWizardOfOz.mp4				12/2/15 05:21 AM
-5		mama mia			michael jackson		2000	5			music		20			20		sale		D:/desktop/mamamia.mp3					12/2/15 05:17 AM
+mediaId	mediaTitle	artist	year	fileSize	mediaType	categoryId	priceId	saleType	mediaPath	priceSetDate	
+1	St. Vincent	Melissa McCarthy	2014	700	movie	1	3	retail	D:/Movies/Comedy/St_Vincent.avi	12/2/15 05:20 AM
+2	marlboro	st vincent	2012	10	music	15	25	retail	D://work//music//marlboro.mp4	12/2/15 05:25 AM
+3	Horrible Bosses 2	Jason Bateman	2011	789	movie	4	77	sale	D:/Movies/Comedy/HorribleBosses2.avi	12/2/15 05:21 AM
+4	The Wizard of Oz	Mila Kunis	2010	876	movie	8	43	retail	D:/Movies/TheWizardOfOz.mp4	12/2/15 05:21 AM
+5	mama mia	michael jackson	2000	5	music	20	20	sale	D:/desktop/mamamia.mp3	12/2/15 05:17 AM
 ```
 
 #### Question 6:
